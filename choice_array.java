@@ -12,7 +12,7 @@ public class choice_array {
 	{
 		Arr_demo1 obj=new Arr_demo1();
 		Scanner sc=new Scanner(System.in);
-		System.out.println("1:ASC \n2:DESC \n3:GRT \n4:SM \n 5: AVRG");
+		System.out.println(" 1 : Ascending \n 2 : Decending \n 3 : Greater \n 4 : Smallest \n 5 : Average");
 		int choice=sc.nextInt();
 		switch(choice)
 		{
