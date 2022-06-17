@@ -3,10 +3,14 @@ import java.util.Scanner;
 public class Arr_demo1 
 {
 	int size,i,j,temp;
+	
+	// accepting_array function is calling by main methos
 	public int[] accepting_array()
 	{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("\nEnter the size");
+		
+		//taking the size fro user
+		System.out.print("\nEnter the size");
 		size=sc.nextInt();
 		int[] num=new int[size];
 		System.out.println("Enter "+size+" numbers");
@@ -24,6 +28,8 @@ public class Arr_demo1
 		
 		return num;		
 	}
+	
+	// ascending function is calling by anothet class
 	public void ascending()
 	{
 		int arr[]=accepting_array();
@@ -45,6 +51,8 @@ public class Arr_demo1
 			System.out.print(arr[i]+"\t");
 		}
 	}
+	
+	// descending function is calling by anothet class
 	public void descending()
 	{
 		int[] arr=accepting_array();
@@ -68,6 +76,8 @@ public class Arr_demo1
 		}
 	}
 	
+	
+	// greater function is calling by anothet class
 	public void greater()
 	{
 		int[] arr=accepting_array();
@@ -82,6 +92,8 @@ public class Arr_demo1
 		}
 		System.out.println("\nThe greater number is = "+temp);	
 	}
+	
+	// smaller function is calling by anothet class
 	public void smaller()
 	{
 		int[] arr=accepting_array();
@@ -97,6 +109,7 @@ public class Arr_demo1
 		System.out.println("\nThe smaller  number is = "+temp);
 	}
 	
+	// average function is calling by anothet class
 	public void average()
 	{
 		int sum =0;
