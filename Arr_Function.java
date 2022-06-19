@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Arr_demo1 
+public class Arr_Function 
 {
 	int size,i,j,temp;
 	
