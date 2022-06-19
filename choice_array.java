@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
+// this class is form to controll the method of Array
 public class choice_array {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		user_choice();
-
 	}
 	public static void user_choice()
 	{
